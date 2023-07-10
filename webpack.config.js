@@ -78,7 +78,7 @@ module.exports = {
           emitWarning: true,
           // failOnWarning: true,
           // failOnError: true,
-          fix: true,
+          fix: false,
           configFile: './.eslintrc',
           outputReport: {
             filePath: './eslint_report.html',
